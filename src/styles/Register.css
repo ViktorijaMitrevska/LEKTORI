@@ -1,0 +1,54 @@
+
+.register {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ece9e7;
+  padding-bottom: 50px;
+}
+
+/* .register .container {
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+} */
+
+.members-table {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.members-table thead {
+  background-color: #4a3f35;
+  color: white;
+}
+
+.members-table th {
+  text-align: center;
+  vertical-align: middle;
+  padding: 14px;
+  font-size: 24px;
+}
+
+.members-table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.members-table tbody tr:hover {
+  background-color: rgba(74, 63, 53, 0.1);
+  transition: 0.2s ease-in-out;
+}
+@media (max-width: 768px) {
+  .members-table th,
+  .members-table td {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}

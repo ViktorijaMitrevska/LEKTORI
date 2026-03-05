@@ -1,0 +1,38 @@
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+ }
+
+ main {
+  flex: 1 0 auto; /* Main content grows to fill available space */
+}
+
+/* Optional: Style for Navbar and Footer if needed */
+nav {
+  flex-shrink: 0; /* Prevents navbar from shrinking */
+}
+
+footer {
+  flex-shrink: 0; /* Prevents footer from shrinking */
+}
+
+.login-btn {
+  background-color: #640202;
+  border: none;
+}
+
+.login-btn:hover {
+  background-color: #8a0a0a;
+}

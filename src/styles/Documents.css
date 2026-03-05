@@ -1,0 +1,68 @@
+
+
+.documents {
+  width: 100%;
+  min-height: 82vh;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20px 0;
+   background-color: #ece9e7;
+}
+
+.content {
+  background-color: #dacfc1;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 800px;  
+  width: 100%;     
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.delba h2 {
+  font-size: clamp(30px, 4vw, 40px); 
+  margin-bottom: 10px;
+}
+
+.delba img {
+  max-width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  padding: 5px;
+}
+
+.delba img:hover {
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  opacity: 0.8;
+  transform: scale(1.03);
+}
+
+
+@media (max-width: 768px) {
+  .documents {
+    background-image: none;
+    background-color: #ece9e7;
+    padding: 20px;
+   
+  }
+
+  .content {
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .delba h2 {
+    font-size: 30px; 
+    margin-bottom: 10px;
+  }
+
+  .delba img {
+    margin: 0 auto;
+  }
+}

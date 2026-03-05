@@ -1,0 +1,23 @@
+
+.footer {
+  background-color: #CBB89D;
+  color: black;
+  width: 100%;
+  min-height: 50px; 
+  padding: 0.5rem; 
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-shrink: 0; 
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    min-height: 40px; 
+    padding: 0.3rem;
+    font-size: 0.9rem; 
+  }
+}
